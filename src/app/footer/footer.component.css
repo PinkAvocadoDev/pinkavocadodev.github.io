@@ -1,0 +1,28 @@
+footer{
+  display: flex;
+  align-items: center;
+}
+
+p{
+  font-size: 15px;
+  padding-left: 6px;
+}
+
+p a {
+  color: var(--textColor);
+}
+
+.siteFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--textColor);
+  background-color: var(--contentBackground);
+  min-width: -webkit-fill-available;
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.65em;
+  border-radius: 12px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+

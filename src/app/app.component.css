@@ -1,0 +1,22 @@
+app-nav{
+  width: 90%;
+  display: block;
+  margin: 0;
+}
+
+app-main-content{
+  display: contents;
+}
+
+app-footer{
+  width: 90%;
+  display: block;
+  margin: 0;
+}
+
+.topHalf{
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  align-items: center;
+}

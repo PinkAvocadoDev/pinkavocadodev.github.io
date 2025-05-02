@@ -1,0 +1,25 @@
+.projectList{
+  flex-direction: column;
+  width: 85vw;
+  max-width:1000px;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--textColor);
+  align-items: center;
+}
+
+.desc{
+  padding-left: 20px;
+}
+
+.desc h1 {
+  margin-top: 0;
+}
+
+.desc a{
+  color: var(--textColor);
+}
+
+.entry {
+  display: flex;
+}

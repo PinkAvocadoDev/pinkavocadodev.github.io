@@ -1,0 +1,16 @@
+.welcomePage{
+  width: 85vw;
+  max-width:800px;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--textColor);
+  align-items: center;
+}
+
+.desc{
+  padding-left: 20px;
+}
+
+.desc h1 {
+  margin-top: 0;
+}
