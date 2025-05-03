@@ -9,6 +9,7 @@ import {RouterOutlet} from "@angular/router";
 })
 export class MainContentComponent {
   @ViewChild("refCont") refCont!: ElementRef;
+
   onActivate(event: any) {
     if(event.modeEmitter){
       event.modeEmitter.subscribe((data: string) => {

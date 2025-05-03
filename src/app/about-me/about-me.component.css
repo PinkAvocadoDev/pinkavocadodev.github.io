@@ -1,0 +1,50 @@
+.aboutMe{
+  width: 85vw;
+  max-width:800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  color: var(--textColor);
+}
+
+.desc{
+  padding-left: 20px;
+
+}
+
+.desc h1 {
+  margin-top: 0;
+}
+
+img{
+  border-radius: 100px;
+}
+
+.skills{
+  list-style: lower-greek;
+  font-weight: bold;
+}
+
+.charity{
+  list-style: square;
+}
+
+.charity a {
+  color: var(--textColor);
+}
+@media(max-width: 550px){
+  .aboutMe{
+    flex-direction: column;
+  }
+
+  .desc{
+    padding-left: 0;
+  }
+
+  img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
+}
+

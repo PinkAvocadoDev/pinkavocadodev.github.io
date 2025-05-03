@@ -4,6 +4,14 @@ footer{
   margin-top: 45px;
 }
 
+.horizontalSeparator{
+  display: none;
+  width: 90%;
+  padding: 0;
+  margin: auto;
+  color:  var(--textColor);
+}
+
 p{
   font-size: 15px;
   padding-left: 6px;
@@ -25,5 +33,19 @@ p a {
   font-size: 0.65em;
   border-radius: 12px;
   box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 700px){
+  .siteFooter{
+    flex-direction: column;
+  }
+
+  .verticalSeparator{
+    display: none;
+  }
+
+  .horizontalSeparator{
+    display: block;
+  }
 }
 
