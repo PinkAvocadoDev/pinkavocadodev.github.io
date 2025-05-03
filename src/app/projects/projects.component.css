@@ -22,4 +22,9 @@
 
 .entry {
   display: flex;
+  padding: 20px;
 }
+ hr{
+   width: 90%;
+   border: 1px solid var(--textColor);
+ }

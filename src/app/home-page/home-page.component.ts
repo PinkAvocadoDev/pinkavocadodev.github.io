@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 
 @Component({
@@ -11,4 +11,8 @@ import {NgOptimizedImage} from '@angular/common';
 })
 export class HomePageComponent {
   age: number = new Date().getFullYear() - 1998;
+  @Output() modeEmitter = new EventEmitter<string>();
+  ngOnInit() {
+    this.modeEmitter.emit("84px");
+  }
 }

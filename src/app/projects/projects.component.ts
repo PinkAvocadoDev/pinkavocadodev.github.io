@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 
 @Component({
@@ -10,5 +10,8 @@ import {NgOptimizedImage} from '@angular/common';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-
+  @Output() modeEmitter = new EventEmitter<string>();
+  ngOnInit() {
+    this.modeEmitter.emit("45px");
+  }
 }
