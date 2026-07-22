@@ -34,7 +34,7 @@ app-category{
 @media(max-width: 650px){
   app-category{
     flex-direction: column;
-    padding: 0;
+    padding: 10px;
   }
 }
 
