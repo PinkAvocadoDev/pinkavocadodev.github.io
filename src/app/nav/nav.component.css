@@ -7,7 +7,7 @@ header{
 .siteTitle{
   color: var(--textColor);
   background-color: var(--contentBackground);
-  min-width: -webkit-fill-available;
+  min-width: 100%;
   text-align: center;
   font-weight: normal;
   font-size: 0.65em;
