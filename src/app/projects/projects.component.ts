@@ -1,11 +1,9 @@
 import {Component, EventEmitter, Output} from '@angular/core';
-import {NgOptimizedImage} from '@angular/common';
 import { CategoryComponent } from "../category/category.component";
 
 @Component({
   selector: 'app-projects',
   imports: [
-    NgOptimizedImage,
     CategoryComponent
 ],
   templateUrl: './projects.component.html',
@@ -17,14 +15,17 @@ export class ProjectsComponent {
   catOneTitle = 'Extensions';
   catOneDesc = 'A collection of web extensions by yours truly.';
   catOneImg = 'exten.webp';
+  typeOne = 'webExten'
 
   catTwoTitle = 'Applications';
   catTwoDesc = 'A collection of native apps that I\'m working on.';
   catTwoImg = 'apps.webp';
+  typeTwo = 'apps'
 
   catThreeTitle = 'Web projects';
   catThreeDesc = 'A collection of web-based projects I have had the pleasure of working on.';
   catThreeImg = 'webProj.webp';
+  typeThree = 'webProj'
 
   ngOnInit() {
     this.modeEmitter.emit("45px");

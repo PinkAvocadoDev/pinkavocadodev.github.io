@@ -1,8 +1,9 @@
 import { Component, ElementRef, Renderer2, ViewChild, Input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-category',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './category.component.html',
   styleUrl: './category.component.css'
 })
@@ -12,6 +13,7 @@ export class CategoryComponent {
   @Input() title  : string='';
   @Input() desc : string=''
   @Input() imgUri : string='';
+  @Input() type : string='';
 
   constructor(private renderer : Renderer2){}
 
